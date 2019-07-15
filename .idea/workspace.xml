@@ -4,11 +4,7 @@
     <list default="true" id="3ed2d0c3-b878-4519-80e8-49de343f9ade" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/dm.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/dm.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hive-site.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hive-site.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/Spark_DM/DM.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/Spark_DM/DM.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/Spark_DM/DM_User_Visit.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/Spark_DM/DM_User_Visit.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/Spark_DW/DWD_DWS.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/config/ConfigManager.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/config/ConfigManager.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/dm.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="48" column="22" selection-start-line="48" selection-end-line="48" selection-end-column="22" />
+            <state relative-caret-position="-69">
+              <caret line="122" column="9" selection-start-line="122" selection-start-column="9" selection-end-line="122" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -84,7 +80,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/Spark_DM/DM.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="219">
               <caret line="33" column="16" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
               <folding>
                 <element signature="e#22#50#0" expanded="true" />
@@ -96,8 +92,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/Spark_DM/DM_User_Visit.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-13">
-              <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+            <state relative-caret-position="150">
+              <caret line="15" column="101" lean-forward="true" selection-start-line="15" selection-start-column="101" selection-end-line="15" selection-end-column="101" />
               <folding>
                 <element signature="e#22#50#0" expanded="true" />
               </folding>
@@ -133,9 +129,9 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/Constants/Constan.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/Spark_DW/DWD_DWS.scala" />
         <option value="$PROJECT_DIR$/src/main/resources/hive-site.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/dm.properties" />
         <option value="$PROJECT_DIR$/src/main/scala/com/Spark_DM/DM.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/Spark_DM/DM_User_Visit.scala" />
+        <option value="$PROJECT_DIR$/src/main/resources/dm.properties" />
       </list>
     </option>
   </component>
@@ -243,7 +239,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563181193197" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563196092721" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -291,7 +287,7 @@
     <configuration name="DM_User_Visit" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.Spark_DM.DM_User_Visit" />
       <module name="hztest_01" />
-      <option name="PROGRAM_PARAMETERS" value="qfbap_dm.dm_user_visit 2019-7-15" />
+      <option name="PROGRAM_PARAMETERS" value="qfbap_dm.dm_user_visit" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.Spark_DM.*" />
@@ -323,7 +319,7 @@
       <option name="presentableId" value="Default" />
       <updated>1562814057546</updated>
       <workItem from="1562814066720" duration="2111000" />
-      <workItem from="1563171780270" duration="8263000" />
+      <workItem from="1563171780270" duration="9949000" />
     </task>
     <task id="LOCAL-00001" summary="jichu">
       <created>1563172852372</created>
@@ -353,14 +349,22 @@
       <option name="project" value="LOCAL" />
       <updated>1563174892641</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="写入完毕">
+      <created>1563181350088</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1563181350088</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10374000" />
+    <option name="totallyTimeSpent" value="12060000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -444,11 +448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/dwd_dws.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1070" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/basic.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -491,16 +490,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/dm.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="48" column="22" selection-start-line="48" selection-end-line="48" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/Spark_DM/DM.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="219">
           <caret line="33" column="16" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
           <folding>
             <element signature="e#22#50#0" expanded="true" />
@@ -508,10 +500,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dwd_dws.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1070" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dm.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="122" column="9" selection-start-line="122" selection-start-column="9" selection-end-line="122" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/Spark_DM/DM_User_Visit.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13">
-          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        <state relative-caret-position="150">
+          <caret line="15" column="101" lean-forward="true" selection-start-line="15" selection-start-column="101" selection-end-line="15" selection-end-column="101" />
           <folding>
             <element signature="e#22#50#0" expanded="true" />
           </folding>
