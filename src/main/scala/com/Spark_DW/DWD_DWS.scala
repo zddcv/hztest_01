@@ -13,7 +13,6 @@ import org.slf4j.LoggerFactory
   */
 object DWD_DWS {
   def main(args: Array[String]): Unit = {
-    System.setProperty("hadoop.home.dir", "F:\\soft\\hadoop-common-2.2.0-bin-master.zip\\hadoop-common-2.2.0-bin-master")
     val conf = new SparkConf().setAppName(Constan.SPARK_APP_NAME_USER).setMaster(Constan.SPARK_LOACL)
     val sc = new SparkContext(conf)
     val hiveContext = new HiveContext(sc)
