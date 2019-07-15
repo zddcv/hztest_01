@@ -23,16 +23,16 @@ object DM_User_Visit {
         .debug("提交的表名参数有问题！请重新设置。。。")
     }else{
         // 处理SQL内部的占位符
-//      val finalSql = sql.replace("?",args(1))
+      val finalSql = sql.replace("?",args(1))
         // 运行SQL
-      val df = hiveContext.sql(sql)
+      val df = hiveContext.sql(finalSql)
       // 处理配置参数
       val mysqlTableName = args(0).split("\\.")(1)
       val hiveTableName = args(0)
       val jdbcProp = JDBCUtils.getJdbcProp()._1
       val jdbcUrl = JDBCUtils.getJdbcProp()._2
       // 存入MySQL
-      df.write.mode("append").jdbc(jdbcUrl,mysqlTableName,jdbcProp)
+      df.coalesce(1).write.mode("append").jdbc(jdbcUrl,mysqlTableName,jdbcProp)
       // 存入Hive
       //df.coalesce(1).write.mode(SaveMode.Append).insertInto(hiveTableName)
     }
